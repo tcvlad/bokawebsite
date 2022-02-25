@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/bokawebsite/static/css/main.10e335d0.chunk.css",
+    "main.js": "/bokawebsite/static/js/main.50225842.chunk.js",
+    "main.js.map": "/bokawebsite/static/js/main.50225842.chunk.js.map",
+    "runtime-main.js": "/bokawebsite/static/js/runtime-main.1ac67d14.js",
+    "runtime-main.js.map": "/bokawebsite/static/js/runtime-main.1ac67d14.js.map",
+    "static/js/2.a4f65c5e.chunk.js": "/bokawebsite/static/js/2.a4f65c5e.chunk.js",
+    "static/js/2.a4f65c5e.chunk.js.map": "/bokawebsite/static/js/2.a4f65c5e.chunk.js.map",
+    "static/js/3.29eff723.chunk.js": "/bokawebsite/static/js/3.29eff723.chunk.js",
+    "static/js/3.29eff723.chunk.js.map": "/bokawebsite/static/js/3.29eff723.chunk.js.map",
+    "index.html": "/bokawebsite/index.html",
+    "static/css/main.10e335d0.chunk.css.map": "/bokawebsite/static/css/main.10e335d0.chunk.css.map",
+    "static/js/2.a4f65c5e.chunk.js.LICENSE.txt": "/bokawebsite/static/js/2.a4f65c5e.chunk.js.LICENSE.txt",
+    "static/media/BokaLogo.b26b1ff9.png": "/bokawebsite/static/media/BokaLogo.b26b1ff9.png",
+    "static/media/Forest.7fa0b463.jpg": "/bokawebsite/static/media/Forest.7fa0b463.jpg",
+    "static/media/App.css": "/bokawebsite/static/media/HKGrotesk-RegularLegacy.a56e5388.otf",
+    "static/media/NodeBoard.86f4e5dd.png": "/bokawebsite/static/media/NodeBoard.86f4e5dd.png",
+    "static/media/NodeDesign.af0fffaf.png": "/bokawebsite/static/media/NodeDesign.af0fffaf.png",
+    "static/media/NodeShell.494456d5.jpg": "/bokawebsite/static/media/NodeShell.494456d5.jpg",
+    "static/media/fire.79f32221.png": "/bokawebsite/static/media/fire.79f32221.png",
+    "static/media/schematic.4acd7458.png": "/bokawebsite/static/media/schematic.4acd7458.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ac67d14.js",
+    "static/js/2.a4f65c5e.chunk.js",
+    "static/css/main.10e335d0.chunk.css",
+    "static/js/main.50225842.chunk.js"
+  ]
+}
