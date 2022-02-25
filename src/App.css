@@ -1,24 +1,27 @@
+@font-face {
+  font-family: 'HkGrotesk';
+  src: local('HkGrotesk'), url(./fonts/HKGrotesk-RegularLegacy.otf) format('truetype');
+}
+
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'HkGrotesk';
   min-height: 100vh;
   max-width: 100vw;
   font-size: 25px;
 }
 
-nav {
+.whole-page{
   background-color: white;
-  margin: 0;
 }
 
 .navbar {
   top: 0;
   font-size: 1vw;
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 10%;
-  background-color: white;
   opacity: 0.8;
 }
 
@@ -32,63 +35,62 @@ nav ul {
 nav ul li {
   display: inline-block;
   list-style-type: none;
+  padding-right: 100px;
 }
 
 nav ul li a {
   color: black;
-  font-size: 28px;
+  font-size: 20px;
+  font-weight: bold;
   display: block;
   line-height: normal;
-  padding: 1px 2vw;
+  padding: 1px .75vw;
+  padding-top: 2vh;
   text-decoration: none;
 }
 
 #logo-navbar{
-  width: 6vw;
+  padding-left: 50px;
+  width: 7vw;
 }
 
 nav ul li:first-child {
   margin-right:  auto;
 }
 
-
+.logoMain{
+  max-width: 500px;
+}
 .landing-container {
-  /* display: grid; */
   width: 1460px;
   height: 780px;
   min-height: 100vh; 
   min-width: 100%;
-  
  }
 
-
-.background > * {
-  z-index: 10;
-}
-
-
-
 .caption{
-  color: Black;
+  color: white;
   text-align: center;
-  font-weight: bold;
+  font-weight: normal;
   position: absolute;
-  font-size: 1.5vw;
+  font-size: 30px;
   top: 30%;
   width: 100%;
 }
 
+hr{
+  width: 2%;
+}
 .button1{
-  background-color:rgba(255,255,255, 0.3); 
+  background-color:white; 
   border: none;
-  color: white;
+  color: #685038;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 19px;
   border-radius: 8px;
-  border: 2px solid #007FFF;
 
 }
 .button1:hover{
@@ -98,22 +100,138 @@ nav ul li:first-child {
 .background {
   min-width: 100%;
   max-height: 100%;
-  margin: auto;
  }
 
-.column-left, .column-right, .column-center {
-  float: left;
-  width: 33.33%;
-  color: #007FFF;
-  /* padding: 10px; */
-  height: 450px;
-  text-align: center;
-  background-color: white;
+
+.information-section{
+  background-color: #ffffff;
+  width: 100%;
+  height: 30vh;
+  display: block;
 }
 
-.container{
-  padding: 0 10vw;
+.backgroundInfo{
+  width: 100%;
 }
-.container:after {
-  clear: both;
+
+.backgroundInfo hr{
+  border: 1px solid black;
+}
+
+.backgroundInfo h2{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 39px;
+}
+
+.backgroundInfo h5{
+  text-align: center;
+  font-size: 18px;
+}
+
+.about{
+  justify-content: center;
+  gap: 200px;
+  font-size: 18px;
+  display: flex;
+  margin: auto;
+}
+
+.about p{
+  font-weight: bold;
+}
+
+.info2 img{
+  max-width: 200px;
+}
+
+.right-text{
+  vertical-align:middle;
+}
+
+.goalSection{
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  padding-top: 100px;
+  margin: auto;
+}
+.columnOne{
+  width: 49%;
+  max-width: 200px;
+  padding: 25px;
+}
+.columnOne img{
+  max-width: 500px;
+}
+
+.columnTwo{
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  justify-content: center;
+  text-align: left;
+}
+.columnTwo img{
+  max-width: 250px;
+}
+
+.schematicInfo{
+  text-align: center;
+  padding: 25px;
+}
+.schematicInfo hr{
+  border: 1px solid black;
+}
+
+.shellProgression{
+  display: inline-flex;
+  gap: 40px;
+  margin:25px;
+  padding-bottom: 50px;   
+}
+
+.column{
+  /* float: left; */
+  width: 33.33%;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+.column img{
+  width: auto;
+  height: auto;
+  max-width: 350px;
+  max-height: 300px;
+  border-radius: 25px;
+}
+
+
+.map-container{
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+.map-container h1{
+  font-size: 35px;
+}
+.map-container hr{
+  border: 1px solid black;
+}
+.map-container p{
+  font-size: 16px;
+}
+.map{
+  border-radius: 25px;
+  margin-left: auto; 
+  margin-right: auto;
+  overflow: hidden;
+  max-width: 80%;
+}
+
+.credits{
+  padding: 25px;
+  text-align: right;
 }
