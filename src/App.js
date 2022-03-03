@@ -75,9 +75,9 @@ export default function App() {
               <img src={fire} alt="fire"></img>
             </div>
           </div>
-          
-          <h5> Watchtowers and satellite observation are among the traditional methods of forest fire detection. <br/> However, watchtowers rely on a labor force to regularly monitor during fire seasons and satellites can <br/>only provide images every two days (assuming weather has not affected the image quality). 
-          </h5>
+          <h5>Previous Solutions</h5>
+          <h6> Watchtowers and satellite observation are among the traditional methods of forest fire detection. <br/> However, watchtowers rely on a labor force to regularly monitor during fire seasons and satellites can <br/>only provide images every two days (assuming weather has not affected the image quality). 
+          </h6>
         </div>
 
         <div className="goalSection" id="prod">

@@ -35,7 +35,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   list-style-type: none;
-  padding-right: 100px;
+  padding-right: 1vw;
 }
 
 nav ul li a {
@@ -62,7 +62,7 @@ nav ul li:first-child {
   max-width: 500px;
 }
 .landing-container {
-  width: 1460px;
+  width: 100%;
   height: 780px;
   min-height: 100vh; 
   min-width: 100%;
@@ -126,7 +126,15 @@ hr{
 
 .backgroundInfo h5{
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
+  padding-bottom: 0;
+}
+
+.backgroundInfo h6{
+  padding-top: 0;
+  text-align: center;
+  font-size: 19px;
+  font-weight: normal;
 }
 
 .about{
